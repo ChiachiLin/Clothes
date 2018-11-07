@@ -3,7 +3,7 @@ package Clothes;
 public class Clothes{
 	private String size;
 	private String color;
-	
+	private int price;
 	public Clothes(){}
 	public Clothes(String size){
 		this.size = size;
@@ -23,6 +23,12 @@ public class Clothes{
 	}
 	public void setColor(String color){
 		this.color = color;
+	}
+	public int getPrice(){
+		return this.price;
+	}
+	public void setPrice(int price){
+		this.price = price;
 	}
 
 }
