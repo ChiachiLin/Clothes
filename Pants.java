@@ -1,6 +1,7 @@
 package Pants;
 public class Pants(){
 	private String size;
+	private String color;
 	
 	public Pants(){}
 	public Pants(String size){
