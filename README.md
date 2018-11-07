@@ -3,9 +3,9 @@ Java Project Practice
 ====================
 # Class
 
-1.Clothes
-2.Pants
+1.	Clothes
+2.	Pants
 
 # Interface
 
-1.Antiwinds
+1.	Antiwinds
