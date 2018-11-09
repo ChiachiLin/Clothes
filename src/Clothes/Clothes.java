@@ -29,8 +29,9 @@ public class Clothes{
 		return this.color;
 	}
 	public void setColor(String color){
-		this.color = color;
+		this.color = color; 
 	}
+
 	public int getPrice() {
 		return this.price;
 	}
@@ -39,4 +40,13 @@ public class Clothes{
 	}
 }
 	
+
+	public int getPrice(){
+		return this.price;
+	}
+	public void setPrice(int price){
+		this.price = price;
+	}
+
+
 
