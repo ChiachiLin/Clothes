@@ -1,20 +1,20 @@
 package Clothes;
 
-public class Clothes{
+public class Pants{
 	private String size;
 	private String color;
 	private int price;
 	
-	public Clothes(){}
-	public Clothes(String size){
+	public Pants(){}
+	public Pants(String size){
 		this ();
 		setSize(size);
 	}
-	public Clothes(String size,String color){
+	public Pants(String size,String color){
 		this(size);
 		setColor(color);
 	}
-	public Clothes(String size,String color,int price){
+	public Pants(String size,String color,int price){
 		this(size,color);
 		setPrice(price);
 	}
@@ -29,6 +29,12 @@ public class Clothes{
 	}
 	public void setColor(String color){
 		this.color = color;
+	}
+	public int getPrice() {
+		return this.price;
+	}
+	public void setPrice(int price) {
+		this.price = price;
 	}
 	
 
