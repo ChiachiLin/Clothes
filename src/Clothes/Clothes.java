@@ -1,5 +1,4 @@
 package Clothes;
-
 public class Clothes{
 	private String size;
 	private String color;
@@ -40,13 +39,5 @@ public class Clothes{
 	}
 }
 	
-
-	public int getPrice(){
-		return this.price;
-	}
-	public void setPrice(int price){
-		this.price = price;
-	}
-
 
 
