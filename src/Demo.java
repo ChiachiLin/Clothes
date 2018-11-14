@@ -1,19 +1,27 @@
 import java.util.*;
-import Clothes.*;
+import Pants.Jeans;
 
 public class Demo {
 
-private static String name;
 
 public static void main(String[] args) {
-		Pants jeans = new Pants();
+		Jeans jeans = new Jeans();
 		Scanner scanner = new Scanner(System.in);
-		name = scanner.nextLine();
+		System.out.print("Please input the pant's size:");
+		String size =scanner.nextLine();
+		jeans.setSize(size);
+		/*System.out.print("Please input the pant's color:");
+		String color = scanner.nextLine();
+		jeans.setColor(color);*/
+		System.out.print("Please input the pant's price:");
+		int price =scanner.nextInt();
+		jeans.setPrice(price);
 		System.out.print("Please input the pants's name:");
+		String name =scanner.next();
+		jeans.setName(name);
+		System.out.printf("Your Jeans's Size:%s,Price:%d,Name: %s",jeans.getSize(),jeans.getPrice(),jeans.getName());
 		
-		
-
-	}
+}
 
 
 
